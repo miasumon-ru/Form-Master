@@ -1,3 +1,4 @@
+import Friends from "../Friends/Friends";
 
 
 
@@ -7,6 +8,11 @@ const Cousin = ({name, asset}) => {
 
             <h2>{name}</h2>
             <p>Has : {asset}</p>
+            
+
+            {
+                name === 'Rubaiya' && <Friends></Friends>
+            }
             
         </div>
     );
